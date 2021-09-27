@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  float: left;
+}
+
+.share-icons {
+  float: right;
+  margin-left: 15px;
+  margin-top: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.social-icons {
+  float: right;
+  margin-top: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.choco-pizza {
+  width: 700px;
+  height: auto;
+}
+
+.main-header {
+  margin-top: 50px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.print-icon {
+  /* clear: both; */
+}
